@@ -2,9 +2,6 @@
 
 Our entry to the **AI Respondents Challenge** (Oxford LLMs 2026): predicting how individual
 survey respondents answered questions that were hidden from us, using only their other answers.
-
-Main notebook: [`pipeline_notebook_v4_documented.ipynb`](pipeline_notebook_v4_documented.ipynb)
-
 ---
 
 ## The challenge
@@ -220,14 +217,6 @@ narrows the distribution — a trade-off we accepted, since skill is what teams 
 
 ---
 
-## Repository contents
-
-| File | Description |
-|------|-------------|
-| `pipeline_notebook_v4_documented.ipynb` | The full pipeline, with outputs from the submission run |
-| `eda_notebook.ipynb` | Exploratory analysis: target distributions, feature–target associations, offline scoring harness |
-| `tier4_zero_shot_notebook.ipynb` | Held-out surveys (ESS Wave 11, Latinobarómetro 2023) — no training data, so LLM-only |
-| `method_description.md` | Method write-up as submitted |
 
 ## Running it
 
